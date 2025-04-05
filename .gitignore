@@ -1,0 +1,35 @@
+# --- Build Output ---
+/target/
+/bin/
+*.class
+*.log
+
+# --- IDE ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Dependency Management ---
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# --- Test Outputs ---
+/test-output/
+/screenshots/
+/reports/
+
+# --- Environment Configs ---
+*.properties
+*.env
+
+# --- Exceptions ---
+!src/main/resources/*.example.*
+!src/test/resources/*.example.*
